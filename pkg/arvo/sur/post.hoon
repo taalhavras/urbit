@@ -1,15 +1,9 @@
+/-  *resource
 |%
-+$  resource   [=entity =term]
-+$  resources  (set resource)
-::
-+$  entity
-  $%  [%ship =ship]
-      [%ships ships=(set ship)]
-      ::  [%ring ...]
-  ==
-::
-+$  index       (list time)
++$  atom        @
++$  index       (list atom)
 +$  uid         [=resource =index]
+::
 +$  hash        @ux
 +$  signature   @ux
 +$  signatures  (set signature)
@@ -17,8 +11,9 @@
   $:  author=ship
       =hash
       =index
-      =signatures
       contents=(list content)
+      signatures=[p=signatures q=hash]
+      time-sent=time
   ==
 ::
 +$  content
