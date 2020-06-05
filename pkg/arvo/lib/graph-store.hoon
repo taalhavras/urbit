@@ -1,7 +1,11 @@
-/-  sur=graph-store
+/-  sur=graph-store, pos=post, res=resource
 ^?
 =<  [sur .]
+=<  [pos .]
+=<  [res .]
 =,  sur
+=,  pos
+=,  res
 |%
 ++  enjs
   =,  enjs:format
